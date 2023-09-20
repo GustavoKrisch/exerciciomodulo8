@@ -1,0 +1,91 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    max-width: 1200px; 
+    margin: 40px auto; 
+    padding: 20px; 
+    background-color: hsl(146, 29%, 67%);
+}
+
+h1 {
+
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Squada One', cursive;
+    font-weight: 200;
+}
+
+table {
+
+    align-items: center;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 60px auto;
+}
+
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    font-family:'Roboto Serif', serif;
+
+}
+
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    
+}
+
+td.numero {
+    font-family: 'Urbanist', sans-serif;
+}
+
+td.nome {
+    font-family: 'Roboto Serif', serif;
+}
+
+tr {
+    border-bottom:1px solid #333;
+    ;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 1200px; 
+    margin: 40px auto; 
+    padding: 20px; 
+}
+
+input {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+input.botao {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+
+
+}
+
+input.botao:hover {
+    cursor: pointer;
+    background-color: hsl(146, 29%, 67%);
+}

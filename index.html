@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefonica</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Squada+One&family=Urbanist:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+    <h1>Lista de contatos</h1>
+    
+    <table id="lista-telefonica">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João da Silva</td>
+                <td>(123) 456-7890</td>
+            </tr>
+            <tr>
+                <td>Maria Souza</td>
+                <td>(987) 654-3210</td>
+            </tr>
+            <tr>
+                <td>Carlos Santos</td>
+                <td>(555) 123-4567</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <form class="registrar-telefone">
+        <input type="text" id="nome-registrado" placeholder="Digite o nome" required>
+        <input type="tel" id="telefone-registrado" placeholder="Digite o telefone" required>
+        <input id="botao" type="submit" >
+    </form>
+    <div id="mensagem-erro" style="display: none;">Nome ou numero ja existe na lista</div>
+</body>
+<script src="main.js"></script>
+</html>
+
+    </div>
